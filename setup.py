@@ -5,13 +5,13 @@ from setuptools import setup  # , find_packages
 
 
 setup(
-    name='AirfoilPrep.py',
+    name='AirfoilPrep',
     version='0.1.0',
     description='Airfoil preprocessing for wind turbine applications',
-    author='S. Andrew Ning',
-    author_email='andrew.ning@nrel.gov',
+    author='NREL WISDEM Team',
+    author_email='systems.engineering@nrel.gov',
     package_dir={'': 'src'},
-    py_modules=['airfoilprep'],
+    packages=['airfoilprep'],
     license='Apache License, Version 2.0',
     zip_safe=False
 )
